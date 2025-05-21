@@ -1,0 +1,81 @@
+# Pokedexx - Interactieve Single Page App
+
+## 📋 Over het project
+
+Pokedexx is een interactieve webapplicatie die ik heb gebouwd voor het vak **Advanced Web**. Het is een single-page app (SPA) gemaakt met Vite en Vanilla JavaScript. De app haalt echte data op via de [PokéAPI](https://pokeapi.co/) en laat je toe om Pokémon te doorzoeken, filteren, sorteren en favorieten te bewaren in je browser.
+
+## 🚀 Wat kan je ermee?
+
+- 🔍 Pokémon zoeken op naam
+- 🧪 Filteren op type (bijv. Fire, Water, Electric...)
+- 🔃 Sorteren op naam of ID
+- ⭐ Favorieten opslaan en bekijken (blijven bewaard tussen sessies)
+- 🌙 Schakelen tussen dark mode en light mode
+- 📱 Responsive en gebruiksvriendelijk op mobiel en desktop
+- ⚡️ Geen herlaad van de pagina – alles gebeurt vlot in dezelfde view
+
+## 🛠️ Technologieën
+
+- [Vite](https://vitejs.dev/)
+- HTML / CSS / JavaScript
+- [PokéAPI](https://pokeapi.co/)
+
+## 📁 Projectstructuur
+
+```
+pokedexx/
+├── index.html
+├── style.css
+├── src/
+│   └── main.js
+└── README
+```
+
+## 📦 Technieken & vereisten
+
+| Onderdeel                      | Toelichting |
+|-------------------------------|-------------|
+| DOM manipulatie               | Via `getElementById`, `innerHTML`, `classList`, events |
+| Moderne JavaScript            | `const`, arrow functions, template literals, array methods, ternary operator |
+| Asynchrone code               | `fetch()`, `async/await`, `Promise.allSettled()` |
+| API & JSON verwerking         | Data ophalen via PokéAPI en verwerken als JSON |
+| Data-opslag                   | Favorieten + dark mode opgeslagen met `localStorage` |
+| Styling                       | Flexbox/grid, themaswitcher, responsive CSS |
+| SPA-gedrag                    | Geen herlaad, detailweergave wordt dynamisch getoond |
+| UX                            | Smooth scroll, duidelijke layout en interactie |
+| Sorteer- & filterfuncties     | Gebouwd met `.sort()` en `.filter()` |
+| Ternary operator              | Gebruikt voor het weergeven van hartjes ❤️ |
+
+## 📸 Screenshots
+
+*(Hier kan je later screenshots toevoegen van de app in actie.)*
+
+## ⚙️ Hoe installeer je het?
+
+1. Clone de repo:
+   ```
+   git clone https://github.com/jouwgebruikersnaam/pokedexx.git
+   ```
+
+2. Navigeer naar het project:
+   ```
+   cd pokedexx
+   ```
+
+3. Installeer de dependencies:
+   ```
+   npm install
+   ```
+
+4. Start de app:
+   ```
+   npm run dev
+   ```
+
+5. Open de link die Vite toont (meestal [http://localhost:5173](http://localhost:5173))
+
+## 🤖 Bronnen
+
+- [PokéAPI](https://pokeapi.co/)
+- MDN Web Docs
+- ChatGPT voor ondersteuning en uitleg

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="module" src="./src/main.js"></script>
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <header>
+    <h1 id="home-link" style="cursor:pointer;">Pokedex</h1>
+    <input type="text" id="search" placeholder="Search Pokémon...">
+    <select id="type-filter">
+      <option value="">Filter op type</option>
+    </select>
+    <select id="sort-order">
+      <option value="">Sorteer op</option>
+      <option value="name-asc">Naam A-Z</option>
+      <option value="name-desc">Naam Z-A</option>
+      <option value="id-asc">ID oplopend</option>
+      <option value="id-desc">ID aflopend</option>
+    </select>
+    <button id="theme-toggle" title="Wissel thema">🌓</button>
+    <button id="show-favorites" title="Toon favorieten">⭐ Favorieten</button>
+  </header>
+  <main>
+    <div id="pokemon-container"></div>
+    <div id="pokemon-details"></div>
+  </main>
+</body>
+</html>
