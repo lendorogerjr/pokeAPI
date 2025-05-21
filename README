@@ -79,3 +79,77 @@ pokedexx/
 - [PokéAPI](https://pokeapi.co/)
 - MDN Web Docs
 - ChatGPT voor ondersteuning en uitleg
+
+# 📘 Pokedexx – Interactieve Single Page App
+
+## Over het project
+
+Pokedexx is een interactieve single-page webapplicatie die ik heb ontwikkeld als schoolopdracht voor het vak **Advanced Web**. Het project is gebouwd met **Vite**, **HTML/CSS**, en **Vanilla JavaScript**, en maakt gebruik van de [PokéAPI](https://pokeapi.co/) om live data op te halen over Pokémon.
+
+De applicatie demonstreert moderne JavaScript-technieken en biedt een dynamische gebruikerservaring, inclusief het opslaan van voorkeuren via `localStorage`.
+
+
+
+## 🛠️ Technologieën gebruikt
+
+- [Vite](https://vitejs.dev/)
+- HTML / CSS / JavaScript
+- [PokéAPI](https://pokeapi.co/)
+
+## 📁 Projectstructuur
+
+```
+pokedexx/
+├── index.html
+├── style.css
+├── src/
+│   └── main.js
+└── README.md
+```
+
+## ✅ Toegepaste technieken
+
+| Onderdeel                  | Toelichting |
+|---------------------------|-------------|
+| DOM manipulatie           | Gebruik van `getElementById`, `innerHTML`, `classList`, event listeners |
+| Moderne JavaScript        | `const`, arrow functions, template literals, array methods, ternary operator |
+| Async/await + Promises    | API calls met `fetch()` en `Promise.allSettled()` |
+| API & JSON verwerking     | Pokémon-data ophalen en weergeven |
+| LocalStorage              | Bewaren van favorieten en dark mode voorkeur |
+| SPA gedrag                | Detailweergave zonder herladen, smooth scroll |
+| Sorteren & filteren       | Sorteren op naam/ID, filteren op type |
+| UX                        | Responsive design, toggle dark mode, favorietensysteem |
+
+## 🔧 Installatie
+
+1. Clone deze repository:
+   ```bash
+   git clone https://github.com/lendorogerjr/pokeAPI.git
+   ```
+
+2. Navigeer naar de map:
+   ```bash
+   cd pokeAPI
+   ```
+
+3. Installeer de dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start de Vite-server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open de app via [http://localhost:5173](http://localhost:5173)
+
+## 📸 Screenshots
+
+(Screenshots worden later toegevoegd.)
+
+## 🤖 Bronnen
+
+- [PokéAPI](https://pokeapi.co/)
+- [MDN Web Docs](https://developer.mozilla.org/)
+- ChatGPT – hulp bij codevoorbeelden en uitleg
